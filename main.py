@@ -33,6 +33,7 @@ profit = 0
 
 
 def sufficient_resources(ingredient):
+    """Checks if there are enough resources available to make coffee or not."""
     for item in ingredient:
         if ingredient[item] > resources[item]:
             print(f"Sorry...not sufficient {item} in machine.")
