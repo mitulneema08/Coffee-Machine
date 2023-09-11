@@ -41,6 +41,7 @@ def sufficient_resources(ingredient):
 
 
 def take_money(coffee_cost):
+    """Take the coins from the user and calculate the cost of coffee and return the change to the user."""
     global profit
     print("Please insert coins.")
     quarters = int(input("How many quarters?: "))
@@ -63,6 +64,7 @@ def take_money(coffee_cost):
 
 
 def report():
+    """Returns the status of resources available."""
     water = resources["water"]
     milk = resources["milk"]
     coffee = resources["coffee"]
