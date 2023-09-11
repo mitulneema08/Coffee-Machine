@@ -59,7 +59,7 @@ def take_money(coffee_cost):
         change_money = money_inserted - coffee_cost
         formatted_change_money = "{:.2f}".format(change_money)
         print(f"Here is your change ${formatted_change_money}.")
-        print("Here is your coffee. Enjoy!")
+        print("Here is your coffee. Enjoy!☕️")
         profit += coffee_cost
         return profit
 
